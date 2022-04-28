@@ -91,13 +91,20 @@ nav img {
     font-size: 70px;
     font-family: "Parisienne", sans-serif;
     font-weight: lighter;
+    color: #fff;
 }
 
 .header_content p { 
     margin: 10px 0 40px; 
+    line-height: 25px;
     font-size: 20px;
     font-family: "Roboto", sans-serif;
-    color: #f7c6ce;
+    color: #fff;
+}
+
+.header_content i { 
+    font-size: medium; 
+    color: yellow;
 }
 
 /* styling and positioning for buttons on home page */
@@ -143,7 +150,7 @@ nav .fas {
 
 /* media query for device >700px */
 
-@media(max-width: 700px) {
+@media(max-width: 800px) {
     .header_content h1 { 
         font-size: 30px;
     }
@@ -189,6 +196,7 @@ nav .fas {
 h1 { 
     font-size: 40px; 
     font-weight: 600;
+    color: #fff
 }
 
 p { 
@@ -203,7 +211,8 @@ p {
 
 h3 { 
     text-align: center;
-    font-weight: 600;
+    font-weight: bolder;
+    color: #ff8ba7;
     margin: 10px 0; 
 }
 
@@ -233,6 +242,11 @@ h3 {
     transition: 0.5s;
 }
 
+.born .fas { 
+    font-size: small;
+    color: yellow;
+}
+
 .family { 
     flex-basis: 30%;
     border-radius: 10px;
@@ -249,7 +263,7 @@ h3 {
 
 /* media query for device >700px */
 
-@media(max-width: 700px) {
+@media(max-width: 800px) {
     
     .row {
         flex-direction: column;
@@ -308,8 +322,8 @@ h3 {
     font-weight: 500;
     font-weight: bolder;
     text-decoration: underline;
-    color: #fff;
     font-size: 25px; 
+    color: #fff;
     top: 10%; 
     left: 50%; 
     transform: translateX(-50%);
@@ -318,8 +332,6 @@ h3 {
 
 .overlay p { 
     width: 100%; 
-    font-weight: 500;
-    font-weight: bolder;
     color: #fff;
     font-size: 25px; 
     text-align: center;
@@ -327,7 +339,7 @@ h3 {
     left: 50%; 
     transform: translate(-50%, -50%);
     position: absolute;
-    line-height: 50px;
+    line-height: auto;
     padding: 10 10; 
     opacity: 0;
     transition: 0.5s;
@@ -337,9 +349,9 @@ h3 {
     opacity: 1;
 }
 
-@media(max-width: 700px) {
-     .faq1, .faq2, .faq3, p { 
-        font-size: 20px;
+@media(max-width: 800px) {
+     .faq1 p, .faq2 p, .faq3 p { 
+        font-size: 22px;
     }
 }
 
@@ -373,7 +385,7 @@ h3 {
 .footer { 
     width: 100%; 
     text-align: center;
-    padding: 30px 0;
+    
 }
 
 .footer h2 { 
@@ -389,7 +401,7 @@ h3 {
 .details ul li, .fab, .fas { 
     color: #fff; 
     margin: 0 13px; 
-    padding: 18px 0;
+    padding: 10px 0;
     cursor: pointer;
     font-size: larger;
 
