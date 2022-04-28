@@ -31,24 +31,41 @@ To provide a point of contact for new potential (and existing) clients for the b
   <li> This clean and minimalistic approach gives users basic information and clear call to actions.</li>
   </ul>
   
-  <h1>About Section</h1>
-  <ul>
-    <li> Three clear block section with key information points end users should be interested in.</li>
-    <li>Below is an embedded Facebook video the business had made for promo purposes. This was coded using the 'iframe' element.</li>
+<h1>About Section</h1>
+<ul>
+<li> Three clear block section with key information points end users should be interested in.</li>
+<li>Below is an embedded Facebook video the business had made for promo purposes. This was coded using the 'iframe' element.</li>
     
 <img width="548" alt="Screenshot 2022-04-28 at 20 26 44" src="https://user-images.githubusercontent.com/99343676/165830813-7ef3a417-4412-4108-aeb2-7732828981c2.png">
 
-    <h1>FAQ Section</h1>
-    <ul>
-      <li>Following the design trend, 3 separate boxes with frequently asked questions to help aid the purpose of the site - to provide information about the business without having to interact</li>
+<h1>FAQ Section</h1>
+<ul>
+<li>Following the design trend, 3 separate boxes with frequently asked questions to help aid the purpose of the site - to provide information about the business without having to interact</li>
 
-<img width="1060" alt="Screenshot 2022-04-28 at 20 29 59" src="https://user-images.githubusercontent.com/99343676/165831195-f499dc90-41f3-4823-92dc-d5d57b7f2837.png">
+  <img width="1060" alt="Screenshot 2022-04-28 at 20 29 59" src="https://user-images.githubusercontent.com/99343676/165831195-f499dc90-41f3-4823-92dc-d5d57b7f2837.png">
 
-   <h1>Contact Section</h1> 
-   <ul>
-   <li>A call to action button which links to an external page using the < a href > attribute where users fill in their details and can message the business</li>
+<h1>Contact Section</h1> 
+<ul>
+<li>A call to action button which links to an external page using the < a href > attribute where users fill in their details and can message the business</li>
     
  <img width="578" alt="Screenshot 2022-04-28 at 20 32 42" src="https://user-images.githubusercontent.com/99343676/165831619-b3e1b975-166d-4732-bdaf-d2b222323c35.png">
       
-     <h1>Testing</h1>
-     
+<h1>Testing</h1>
+<ul> 
+<li> I have tested that the website works on Chrome, Safari and Firefox, on iPad, laptop and desktop with no visual errors</li>
+<li> using ami.responsivedesign to see how the website looks on different devices</li>
+ 
+<img width="1841" alt="Screenshot 2022-04-28 at 20 59 09" src="https://user-images.githubusercontent.com/99343676/165835792-ffbc5392-83c2-4e5d-a9ef-d5ea0853525e.png">
+  
+<li>using Lighthouse and Google Chrome Developer Tools, I made changes to suggestions where I could and recieved these scores</li>
+       
+<img width="453" alt="Screenshot 2022-04-28 at 21 01 36" src="https://user-images.githubusercontent.com/99343676/165836168-def9ea10-7e7a-414e-88f3-ce0702aa7b4f.png">
+
+<h1>Bugs</h1>
+<ul> 
+<li>There are two bugs which I am yet to find a solution to.</li> 
+<li>The first one is activating the animation on the 3 'faq' question boxes on a phone to display the text when interacted with. This works on other devices becuase the '::hover' attribute is triggered with a cursor, however not on touchscreen devices.</li> 
+<li>The second bug is not having an email to associate with the contact form, leaving an 'error 404' page. Should this page go live, this will be fixed with the offical business email redirection'</li>
+       
+       
+       
