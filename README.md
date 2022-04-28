@@ -1,108 +1,54 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1>Concept idea</h1>
+the concept idea for project 1 is to design and build a website to help promote and expose my cousin's travel business. She has a strong presence on social media, but having a website would help with the expansion of her business. This is because the purpose of the site is to provide potential clients with information about the services provided, alongside a visual portfolio.
 
-Welcome T-Kingston,
+<h1>Page Layout</h1>
+There will be four pages on the site: main sections on the page, an 'about' section which gives information about the business and the owner, FAQs to improve customer experience by providing information without them having to wait for a response, and a 'contact' form which will allow visitors to fill in their details on a form and submit them to the business email adress about queries and potential bookings.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<h1>Website Purpose</h1>
+To provide a point of contact for new potential (and existing) clients for the business. Visually display information about the business and increase exposure by adding more online presence to compliment her current Facebook and Instagram pages. Families/couples looking to book a holiday with personal travel assistant. Ashleigh specialises in family holidays, Disney breaks, Lapland getaways and occasionally, abroad weddings. This means holiday makers who typically book adventurous, long term, international travels are excluded from the skope of design and audience as there is no reason to explictly cater for this niche customer base in her field.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<h1>Organisation</h1>
+<ul>
+<li>created all the files needed in the project - 2x.html files, a style.css file nested in an assets folder, along with an 'images' folder nested inside that.</li>
 
-## Gitpod Reminders
+<img width="285" alt="Screenshot 2022-04-28 at 20 08 44" src="https://user-images.githubusercontent.com/99343676/165828186-256b4ce1-c32d-4bc3-a684-4580abfce07a.png">
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<li>Add code for the 'head' and 'body' section for the 'index.html file', making sure to link it to the 'style.css' sheet using 'href' attribute.</li>
 
-`python3 -m http.server`
+<li>in terminal, create an 'initial commit' for the backbone of the project incase it needs to be reverted to defaults and make git commitments along the way.</li>
 
-A blue button should appear to click: _Make Public_,
+<h1>Header</h1>
+<ul>
+<li>Add code for the 'head' and 'body' section for the 'index.html file', making sure to link it to the 'style.css' sheet using 'href' attribute.</li>
 
-Another blue button should appear to click: _Open Browser_.
+<li>in terminal, create an 'initial commit' for the backbone of the project incase it needs to be reverted to defaults and make git commitments along the way.</li>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<li>Coded four un-ordered list items nested inside a 'nav' element for navigation within the website. These are 'index.html, about.html, faq.html, and contact.html'</li>
 
-A blue button should appear to click: _Make Public_,
+<img width="742" alt="Screenshot 2022-04-28 at 20 11 48" src="https://user-images.githubusercontent.com/99343676/165828513-2f674c1e-7ac0-45ca-a236-49ec1a8e4fce.png">
+<img width="1089" alt="Screenshot 2022-04-28 at 20 21 22" src="https://user-images.githubusercontent.com/99343676/165829947-8d87ba25-e020-444a-92bd-d76d4dc41992.png">
+  <li> The header shows the name of the business, the logo and the corresponding color scheme.</li>
+  <li> This clean and minimalistic approach gives users basic information and clear call to actions.</li>
+  </ul>
+  
+  <h1>About Section</h1>
+  <ul>
+    <li> Three clear block section with key information points end users should be interested in.</li>
+    <li>Below is an embedded Facebook video the business had made for promo purposes. This was coded using the 'iframe' element.</li>
+    
+<img width="548" alt="Screenshot 2022-04-28 at 20 26 44" src="https://user-images.githubusercontent.com/99343676/165830813-7ef3a417-4412-4108-aeb2-7732828981c2.png">
 
-Another blue button should appear to click: _Open Browser_.
+    <h1>FAQ Section</h1>
+    <ul>
+      <li>Following the design trend, 3 separate boxes with frequently asked questions to help aid the purpose of the site - to provide information about the business without having to interact</li>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<img width="1060" alt="Screenshot 2022-04-28 at 20 29 59" src="https://user-images.githubusercontent.com/99343676/165831195-f499dc90-41f3-4823-92dc-d5d57b7f2837.png">
 
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+   <h1>Contact Section</h1> 
+   <ul>
+   <li>A call to action button which links to an external page using the < a href > attribute where users fill in their details and can message the business</li>
+    
+ <img width="578" alt="Screenshot 2022-04-28 at 20 32 42" src="https://user-images.githubusercontent.com/99343676/165831619-b3e1b975-166d-4732-bdaf-d2b222323c35.png">
+      
+     <h1>Testing</h1>
+     
