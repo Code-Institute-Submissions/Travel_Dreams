@@ -14,14 +14,15 @@
 </head>
 
 <body>
-    <section class="header">
+    <div class="header">
         <nav>
-            <a href="index.html"><img src="assets/images/travel_dreams_logo.png"></a>
+            <!-- Logo's rights belong to business owner-->
+            <a href="index.html"><img src="assets/images/travel_dreams_logo.png" alt="business logo"></a>
             <div class="nav-links" id="navlinks">
                 <i class="fas fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li>
-                        <a href="index.html" class="current">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
                         <a href="#about">About</a>
@@ -48,16 +49,16 @@
             <div>
                 <a href="#contact">
                     <button type="button" class="button"><span></span>Book Your Dream Holiday Now</button>
-                    </a>
+                </a>
                 <a href="#about">
                     <button type="button" class="button"><span></span>Find Out More</button>
                 </a>
             </div>
         </div>
-    </section>
+    </div>
 
 <!-- about section-->
-    <section class="about" id="about">
+    <div class="about" id="about">
         <h1>About Me!</h1>
         <p>Here's a snippet of me and the business so we can get to know each other better.</p>
         
@@ -83,16 +84,18 @@
             </div>
         </div>
         <div class="video">
-            <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fcontentanddesignsbyhannah%2Fvideos%2F4967311400016939%2F&show_text=false&width=476&t=0" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay muted; clipboard-write; encrypted-media; picture-in-picture; web-share, play, pause, volume" allowFullScreen="false"></iframe>
+            <!-- Video content credit @Content & Designs by Hannah [on Facebook]-->
+            <iframe title="promotion video from Facebook" src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fcontentanddesignsbyhannah%2Fvideos%2F4967311400016939%2F&show_text=false&width=476&t=0" width="476" height="476" style="border:none;overflow:hidden"  allow="autoplay muted; clipboard-write; encrypted-media; picture-in-picture; web-share, play, pause, volume"></iframe>
         </div>
-    </section>
+    </div>
 
     <!-- FAQ Section-->
 
-    <section class="faq" id="faq">
+    <div class="faq" id="faq">
         <h1>Frequently Asked Questions</h1>
         <p>Hopefully these will answer a question you may have so we can spend more time finding your perfect holiday!</p>
 
+        <!-- Images are property of business owner as she took them herself-->
         <div class="row">
             <div class="faq1">
                 <img src="assets/images/volcano.jpg" alt="image of volcano attraction">
@@ -116,17 +119,17 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
 <!--  contact section-->
 
-    <section class="contact" id="contact">
+    <div class="contact" id="contact">
         <h1>Get In Touch!</h1>
         <p>Fill out the form below to send me an email, or get in touch with my details below.</p>
         <a href="contact_form.html">
             <button type="button" class="button"><span></span>Contact Me!</button>
         </a>
-    </section>
+    </div>
 
     
      <!-- JavaScript snippet provided by creator @EasyTutorials. Toggles Menu on open/close for small device. starts line 20 on index.html-->
@@ -142,7 +145,6 @@
         }
     </script>
     <!-- ***************************************************-->
-</body>
 <footer class="footer"> 
     <h2>My Details</h2>
     <div class="details">
@@ -159,4 +161,5 @@
         </a>
     </div>
 </footer>  
+</body>
 </html>
