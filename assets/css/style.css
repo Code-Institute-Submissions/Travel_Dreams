@@ -101,7 +101,7 @@ nav img {
 
 /* styling and positioning for buttons on home page */
 
-button { 
+.button { 
     width: 200px; 
     padding: 15px 0; 
     text-align: center;
@@ -128,11 +128,11 @@ span {
     transition: 0.5s;
 }
 
-button:hover span { 
+.button:hover span { 
     width: 100%
 }
 
-button:hover { 
+.button:hover { 
     border: none; 
 }
 
@@ -335,4 +335,43 @@ h3 {
         font-size: 30px;
         padding: 5 5; 
     }
+}
+
+/* Contact Section */
+
+.contact {
+    width: 80%; 
+    margin: 100px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/disneyfamily.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.contact h1 { 
+    color: #fff; 
+    margin-bottom: 40px; 
+    padding: 0; 
+}
+
+@media(max-width: 700px) { 
+    .contact h1, p { 
+        font-size: 24px;
+    }
+}
+
+/* Footer section */
+
+.footer { 
+    width: 100%; 
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4 { 
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
 }
