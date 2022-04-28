@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="A perfect personalised experience to book your dream holiday"/>
+<meta name="keywords" content="holiday, personalised, travel agent, vacation, assistant">
+<script src="https://kit.fontawesome.com/16ee1fbf35.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Travel Dreams by Ashleigh</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="assets/images/travel_dreams_logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html" class="current">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#faq">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul> 
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="header_content">
+            <h1>Travel Dreams by Ashleigh</h1>
+            <p> making your dreams come true, one holiday at a time </p>
+            <div>
+                <a href="contact.html">
+                    <button type="button"><span></span>Book Your Dream Holiday Now</button>
+                    </a>
+                <a href="about.html">
+                    <button type="button"><span></span>Find Out More</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+<!-- about section-->
+    <section class="about">
+        <h1>About Us!</h1>
+        
+        <div class="row">
+            <div class="experience">
+                <h3>Experience</h3>
+                <p>I have over 13 years of experience in the industry and have graduated with a degree in travel and tourism to support.</p>
+            </div>
+            <div class="born">
+                <h3>EST. 2019</h3>
+                <p> My business was founded 3 years ago when I decided to use my knowledge and expertise to help holiday lovers like yourselves find your dream holiday! Having travelled to over 26 different destinations, there’s little that gets by me knowledge or question wise.</p>
+            </div>
+            <div class="family">
+                <h3>Family</h3>
+                <p>I have 3 amazing children and a perfect fiancé who share this passion with me and get in on all the travelling and exploring! I converted a room in my house to be my office so I can have a place of work that feels as personalised to you as possible, whether you’re popping in for a chat, or reaching out online.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- JavaScript snippet provided by creator @EasyTutorials. Toggles Menu on open/close for small device.-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu() {
+            navlinks.style.right= "0"
+        }
+
+        function hideMenu() {
+            navlinks.style.right= "-200px"
+        }
+    </script>
+</body>
+</html>
