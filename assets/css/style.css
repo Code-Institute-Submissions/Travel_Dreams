@@ -211,6 +211,7 @@ p {
     padding: 20px 12px; 
     box-sizing: border-box;
     background-color: #c6d6f7;
+    transition: 0.5s;
 }
 
 .born { 
@@ -220,6 +221,7 @@ p {
     padding: 20px 12px; 
     box-sizing: border-box;
     background-color: #f7dac6;
+    transition: 0.5s;
 }
 
 .family { 
@@ -229,4 +231,16 @@ p {
     padding: 20px 12px; 
     box-sizing: border-box;
     background-color: #f7cec6;
+    transition: 0.5s;
+}
+
+h3 { 
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0; 
+}
+
+.experience:hover, .born:hover, .family:hover { 
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+
 }
